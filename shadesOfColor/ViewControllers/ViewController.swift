@@ -27,8 +27,8 @@ class ViewController: UIViewController {
     @IBAction func rgbaSliderChanged(_ sender: UISlider) {
         collectColor()
         
-        for index in 0..<saturatedOfColor.count {
-            saturatedOfColor[index].text = String(format: "%.2f", sliders[index].value)
+        if let indexSlider = sliders.firstIndex(where: {$0 == sender}) {
+            saturatedOfColor[indexSlider].text = String(format: "%.2f", sliders[indexSlider].value)
         }
     }
     

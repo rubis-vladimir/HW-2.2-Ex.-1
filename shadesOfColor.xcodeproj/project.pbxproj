@@ -37,6 +37,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7D8AAAE2266F993C0036ECDA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7DA41EA42656F60D00B3348F /* Main.storyboard */,
+				7DA41EA92656F60F00B3348F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7D8AAAE4266F99560036ECDA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				7DA41E9E2656F60D00B3348F /* AppDelegate.swift */,
+				7DA41EA02656F60D00B3348F /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		7D8AAAED266F9BAC0036ECDA /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				7DA41EA72656F60F00B3348F /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		7D8AAAEE266F9BBD0036ECDA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7DA41EA22656F60D00B3348F /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		7DA41E922656F60D00B3348F = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +90,10 @@
 		7DA41E9D2656F60D00B3348F /* shadesOfColor */ = {
 			isa = PBXGroup;
 			children = (
-				7DA41E9E2656F60D00B3348F /* AppDelegate.swift */,
-				7DA41EA02656F60D00B3348F /* SceneDelegate.swift */,
-				7DA41EA22656F60D00B3348F /* ViewController.swift */,
-				7DA41EA42656F60D00B3348F /* Main.storyboard */,
-				7DA41EA72656F60F00B3348F /* Assets.xcassets */,
-				7DA41EA92656F60F00B3348F /* LaunchScreen.storyboard */,
+				7D8AAAEE266F9BBD0036ECDA /* ViewControllers */,
+				7D8AAAED266F9BAC0036ECDA /* Resourses */,
+				7D8AAAE4266F99560036ECDA /* SupportingFiles */,
+				7D8AAAE2266F993C0036ECDA /* Storyboards */,
 				7DA41EAC2656F60F00B3348F /* Info.plist */,
 			);
 			path = shadesOfColor;
@@ -287,6 +319,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJM24K3YHR;
 				INFOPLIST_FILE = shadesOfColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,6 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WJM24K3YHR;
 				INFOPLIST_FILE = shadesOfColor/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
